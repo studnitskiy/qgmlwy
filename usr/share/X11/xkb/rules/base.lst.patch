@@ -1,0 +1,15 @@
+--- /usr/share/X11/xkb/rules/base.lst	2021-08-18 02:26:23.000000000 -0700
++++ base.lst	2022-05-24 19:24:26.000247557 -0700
+@@ -762,6 +762,12 @@
+   gag             md: Moldavian (Gagauz)
+   phoneticx       id: Indonesian (Arab Pegon, extended phonetic)
+   phonetic        my: Malay (Jawi, phonetic)
++  qfmlwy          carpalx: best QWERTY relocation
++  qgmlwb          carpalx: Colemak-like
++  qgmlwy          carpalx: Colemak-like (ZXCV)
++  qwkrfy          carpalx: 5 keys QWERTY relocation
++  qwyrfm          carpalx: 10 keys QWERTY relocation
++  tnwmlc          worst ever layout
+ 
+ ! option
+   grp                  Switching to another layout

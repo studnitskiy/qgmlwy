@@ -1,0 +1,55 @@
+--- /usr/share/X11/xkb/rules/base.xml	2021-06-08 13:20:40.000000000 -0700
++++ base.xml	2022-05-24 19:28:41.002737258 -0700
+@@ -6367,6 +6367,52 @@
+       </configItem>
+       <variantList/>
+     </layout>
++    <layout>
++      <configItem>
++        <name>carpalx</name>
++        <shortDescription>Carpalx</shortDescription>
++        <description>Carpalx</description>
++        <languageList><iso639Id>en</iso639Id></languageList>
++      </configItem>
++      <variantList>
++        <variant>
++          <configItem>
++            <name>qgmlwb</name>
++            <description>Carpalx QGMLWB Colemak-like</description>
++          </configItem>
++        </variant>
++        <variant>
++          <configItem>
++            <name>qgmlwy</name>
++            <description>Carpalx QGMLWY Colemak-like (ZXCV)</description>
++          </configItem>
++        </variant>
++        <variant>
++          <configItem>
++            <name>qfmlwy</name>
++            <description>Carpalx QFMLWY best QWERTY relocation</description>
++          </configItem>
++        </variant>
++        <variant>
++          <configItem>
++            <name>qwkrfy</name>
++            <description>Carpalx QWKRFY 5 keys QWERTY relocation</description>
++          </configItem>
++        </variant>
++        <variant>
++          <configItem>
++            <name>qwyrfm</name>
++            <description>Carpalx QWYRFM 10 keys QWERTY relocation</description>
++          </configItem>
++        </variant>
++        <variant>
++          <configItem>
++            <name>tnwmlc</name>
++            <description>Carpalx TNWMLC worst ever layout</description>
++          </configItem>
++        </variant>
++      </variantList>
++    </layout>
+   </layoutList>
+   <optionList>
+     <group allowMultipleSelection="true">
